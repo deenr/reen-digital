@@ -23,7 +23,7 @@ function App() {
           fill="currentColor"
         />
       </svg>
-      <p className="absolute left-1/2 -translate-x-1/2 bottom-8 font-space-grotesk text-base text-medium text-secondary-900 text-nowrap">© 2024 Reen Digital. All rights reserved.</p>
+      <p className="absolute left-1/2 -translate-x-1/2 bottom-8 font-inter text-sm text-medium text-secondary-300 text-nowrap">© 2024 Reen Digital. All rights reserved.</p>
     </main>
   );
 }
