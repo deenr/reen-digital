@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  overflow: hidden;
+:root {
+  --unit-100vh: 100vh;
+}
+@supports (height: 100dvh) {
+  :root {
+    --unit-100vh: 100dvh;
+  }
+}
+
+body,
+#root {
+  height: var(--unit-100vh);
 }
